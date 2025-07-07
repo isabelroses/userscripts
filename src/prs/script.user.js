@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name        Info for merged pull requests
-// @namespace   Violentmonkey Scripts
+// @namespace   nixos-merged-prs
 // @include     /github\.com\/([\w-]+\/[\w-]+)\/pull\/(\d+).*$/
 // @grant       none
-// @version     2.0.0
-// @author      Isabel Roses <isabel@isabelroses.com>
+// @version     2.0.1
+// @author      isabel roses <isabel@isabelroses.com>
 // @description 10/29/2023, 11:47:39 AM
 // ==/UserScript==
 
@@ -17,7 +17,7 @@
   if (!header) return
 
   const subscribedRepos = {
-    'NixOS/nixpkgs': ['master', 'nixpkgs-unstable', 'nixos-unstable'],
+    'NixOS/nixpkgs': ['nixpkgs-unstable', 'nixos-unstable'],
   }
 
   /**
