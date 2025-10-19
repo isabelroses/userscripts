@@ -6,6 +6,7 @@
 // @version     2.0.1
 // @author      isabel roses <isabel@isabelroses.com>
 // @description 10/29/2023, 11:47:39 AM
+// https://github.com/isabelroses/userscripts/raw/refs/heads/main/src/prs/script.user.js
 // ==/UserScript==
 
 (function () {
