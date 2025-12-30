@@ -1,14 +1,15 @@
 // ==UserScript==
-// @name        Bluesky hide followers
-// @namespace   bsky-hide-followers
-// @match       *://bsky.app/*
-// @match       *://catsky.social/*
-// @grant       none
-// @version     2.0.0
-// @author      isabel roses <isabel@isabelroses.com>
-// @description 17/10/2025, 15:36:55
-// @run-at      document-idle
-// @updateURL   https://github.com/isabelroses/userscripts/raw/refs/heads/main/src/bsky-hide-follows/script.user.js
+// @name         Bluesky hide followers
+// @namespace    bsky-hide-followers
+// @match        *://bsky.app/*
+// @match        *://catsky.social/*
+// @grant        none
+// @version      2.0.0
+// @author       isabel roses <isabel@isabelroses.com>
+// @description  17/10/2025, 15:36:55
+// @run-at       document-idle
+// @updateURL    https://github.com/isabelroses/userscripts/raw/refs/heads/main/src/bsky-hide-follows/script.user.js
+// @downloadURL  https://github.com/isabelroses/userscripts/raw/refs/heads/main/src/bsky-hide-follows/script.user.js
 // ==/UserScript==
 
 (function() {
