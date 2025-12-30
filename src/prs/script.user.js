@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name        Info for merged pull requests
-// @namespace   nixos-merged-prs
-// @include     /github\.com\/([\w-]+\/[\w-]+)\/pull\/(\d+).*$/
-// @grant       none
-// @version     2.0.1
-// @author      isabel roses <isabel@isabelroses.com>
-// @description 10/29/2023, 11:47:39 AM
-// https://github.com/isabelroses/userscripts/raw/refs/heads/main/src/prs/script.user.js
+// @name         Info for merged pull requests
+// @namespace    nixos-merged-prs
+// @match        https://github.com/*/*/pull/*
+// @grant        none
+// @version      2.0.2
+// @author       isabel roses <isabel@isabelroses.com>
+// @description  10/29/2023, 11:47:39 AM
+// @updateURL    https://github.com/isabelroses/userscripts/raw/refs/heads/main/src/prs/script.user.js
+// @downloadURL  https://github.com/isabelroses/userscripts/raw/refs/heads/main/src/prs/script.user.js
 // ==/UserScript==
 
 (function () {
